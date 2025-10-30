@@ -52,8 +52,8 @@
     <circle cx="500" cy="500" r="240" fill="#CFB991"/>
   </g>
   <g class="text" text-anchor="middle">
-    <text x="500" y="480" class="visionTitle">Vision</text>
-    <text x="500" y="512" class="visionBody">Placeholder text for the university vision statement.</text>
+    <text x="500" y="480" class="visionTitle">ERM Vision</text>
+    <text x="500" y="512" class="visionBody">Enable all decision makers, including the Board of Trustees, faculty, management, operational staff, and others to identify, assess, and manage risks in a continuously changing and uncertain environment.</text>
   </g>
 
   <!-- Goal labels outside the ring at cardinal points -->
