@@ -58,7 +58,7 @@ main#content {
 
 .vision-goals {
   width: 100%;
-  max-width: 1000px;
+  max-width: 500px; /* scaled down to 50% while keeping text sizes */
 }
 
 .diagram {
