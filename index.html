@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Purdue University – Vision + Goals Diagram</title>
+    <meta name="description" content="Responsive circular diagram showing a central Vision with four surrounding Goals.">
+    <!--
+      Implementation Notes:
+      - Replace placeholder Vision and Goal text with real content.
+      - Colors are controlled in style.css via CSS variables under :root.
+      - The diagram supports both circular layout (desktop/tablet) and stacked layout (mobile).
+      - No JavaScript. Pure HTML + CSS for portability across CMS (WordPress/Cascade).
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main id="content">
+      <section class="vision-goals" aria-labelledby="vg-title" role="group">
+        <h1 id="vg-title" class="sr-only">Vision and Goals</h1>
+
+        <!--
+          The diagram container is a square that scales with its width.
+          - The ring shows four quadrants using a conic-gradient.
+          - The central circle contains the Vision.
+          - Goal cards are positioned at top, right, bottom, and left.
+        -->
+        <div class="diagram">
+          <div class="ring" aria-hidden="true"></div>
+
+          <div class="vision-center" role="img" aria-label="Vision">
+            <h2>Vision</h2>
+            <p><!-- Insert official Vision statement here -->
+              Placeholder text for the university vision statement.
+            </p>
+          </div>
+
+          <article class="goal goal1" aria-labelledby="goal1-title">
+            <h3 id="goal1-title">Goal 1</h3>
+            <p><!-- Replace with Goal 1 description -->
+              Placeholder text for goal 1.
+            </p>
+          </article>
+
+          <article class="goal goal2" aria-labelledby="goal2-title">
+            <h3 id="goal2-title">Goal 2</h3>
+            <p><!-- Replace with Goal 2 description -->
+              Placeholder text for goal 2.
+            </p>
+          </article>
+
+          <article class="goal goal3" aria-labelledby="goal3-title">
+            <h3 id="goal3-title">Goal 3</h3>
+            <p><!-- Replace with Goal 3 description -->
+              Placeholder text for goal 3.
+            </p>
+          </article>
+
+          <article class="goal goal4" aria-labelledby="goal4-title">
+            <h3 id="goal4-title">Goal 4</h3>
+            <p><!-- Replace with Goal 4 description -->
+              Placeholder text for goal 4.
+            </p>
+          </article>
+        </div>
+
+        <!--
+          Optional: Inline-SVG version for CMS embedding.
+          See separate file vision-goals.svg. You may copy its contents inline
+          into CMS if desired.
+        -->
+      </section>
+    </main>
+  </body>
+  </html>
+
+
