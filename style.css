@@ -95,8 +95,8 @@ main#content {
   transform: translate(-50%, -50%);
   width: 48%;
   aspect-ratio: 1 / 1;
-  background: var(--purdue-gold);
-  color: #1b1b1b;
+  background: #000000;
+  color: var(--purdue-gold);
   border-radius: 50%;
   display: grid;
   place-items: center;
