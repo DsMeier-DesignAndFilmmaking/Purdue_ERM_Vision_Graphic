@@ -3,6 +3,11 @@
   - Pure CSS (no JS)
   - Responsive: circular layout scales; mobile stacks
   - Easy theming via CSS variables below
+
+  Typography:
+  - Primary: Acumin Pro (Adobe Fonts). To load via Adobe Fonts, add your kit
+    embed <link> in index.html head. This stylesheet assumes the font is
+    available on the page and provides system fallbacks.
 */
 
 :root {
@@ -24,7 +29,7 @@
 html, body { height: 100%; }
 body {
   margin: 0;
-  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-family: "Acumin Pro", "Helvetica Neue", Arial, sans-serif;
   color: var(--text-color);
   background: var(--bg);
   line-height: 1.5;
