@@ -106,7 +106,7 @@ main#content {
   display: grid;
   place-items: center;
   text-align: center;
-  padding: 20px 28px; /* a bit more horizontal padding to avoid edge collisions */
+  padding: 24px 32px; /* increase inner padding to keep text away from edge */
   box-shadow: 0 6px 18px rgba(0,0,0,0.12);
   overflow: hidden; /* ensure content cannot render outside circular clip */
 }
@@ -119,23 +119,26 @@ main#content {
 
 .vision-center p {
   margin: 0; /* no extra spacing below headline */
-  line-height: 1.3; /* tighter paragraph line-height */
-  font-size: 0.95rem;
+  line-height: 1.28; /* tighter paragraph line-height */
+  font-size: clamp(0.85rem, 1.6vw, 0.95rem);
   word-break: break-word;
   overflow-wrap: anywhere;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
 }
 
 /* Constrain text width inside the circle to keep clear of curvature */
 .vision-center h2,
 .vision-center p {
-  max-width: 78%;
+  max-width: 70%;
   margin-left: auto;
   margin-right: auto;
 }
 
 @media (max-width: 720px) {
   .vision-center p {
-    font-size: 0.9rem; /* slightly smaller on small screens to prevent overflow */
+    font-size: clamp(0.82rem, 3.5vw, 0.9rem); /* slightly smaller on small screens to prevent overflow */
   }
 }
 
