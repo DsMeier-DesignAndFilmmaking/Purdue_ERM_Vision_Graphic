@@ -52,8 +52,8 @@
     <circle cx="500" cy="500" r="240" fill="#000000"/>
   </g>
   <g class="text" text-anchor="middle">
-    <text x="500" y="490" class="visionTitle" fill="#CFB991">ERM Vision</text>
-    <text x="500" y="510" class="visionBody" fill="#CFB991">Enable all decision makers, including the Board of Trustees, faculty, management, operational staff, and others to identify, assess, and manage risks in a continuously changing and uncertain environment.</text>
+    <text x="500" y="496" class="visionTitle" fill="#CFB991">ERM Vision</text>
+    <text x="500" y="512" class="visionBody" fill="#CFB991">Enable all decision makers, including the Board of Trustees, faculty, management, operational staff, and others to identify, assess, and manage risks in a continuously changing and uncertain environment.</text>
   </g>
 
   <!-- Goal labels outside the ring at cardinal points -->
