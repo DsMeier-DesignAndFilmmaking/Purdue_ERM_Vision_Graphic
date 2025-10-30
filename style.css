@@ -98,7 +98,7 @@ main#content {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 48%;
+  width: 80%; /* match the ring's inner diameter (100% - 2*inset[10%]) to remove white gap */
   aspect-ratio: 1 / 1;
   background: #000000;
   color: var(--purdue-gold);
