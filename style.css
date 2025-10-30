@@ -144,11 +144,7 @@ main#content {
   font-size: 0.95rem;
 }
 
-.goal:hover,
-.goal:focus-within {
-  transform: translateY(-2px) scale(1.01);
-  box-shadow: var(--card-shadow-hover);
-}
+/* Hover/interaction effects removed per request */
 
 /* Individual goal placements and accent borders matching quadrants */
 .goal1 {
@@ -180,9 +176,7 @@ main#content {
 }
 
 /* Hover halo on the ring for subtle interactivity (global) */
-.diagram:hover .ring {
-  filter: drop-shadow(0 0 12px rgba(0,0,0,0.08));
-}
+/* Hover/interaction effects removed per request */
 
 /*
   Responsive: On small screens, switch to stacked layout for readability.
