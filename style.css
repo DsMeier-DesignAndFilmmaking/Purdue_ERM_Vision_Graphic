@@ -111,13 +111,13 @@ main#content {
 }
 
 .vision-center h2 {
-  margin: 0 0 8px;
+  margin: 0 0 4px; /* tighter headline-to-subtext spacing */
   font-weight: 800;
   letter-spacing: 0.02em;
 }
 
 .vision-center p {
-  margin: 0;
+  margin: 0; /* no extra spacing below headline */
   font-size: 0.95rem;
 }
 
