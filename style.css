@@ -122,6 +122,7 @@ main#content {
 
 .vision-center h2 {
   margin: 0; /* no margins to control spacing via gap */
+  font-family: "Acumin Pro", "Helvetica Neue", Arial, sans-serif;
   font-weight: 800;
   letter-spacing: 0.02em;
   line-height: 1.1; /* tighter line-height to reduce visual space */
@@ -129,6 +130,7 @@ main#content {
 
 .vision-center p {
   margin: 0; /* no margins - spacing controlled by flex gap */
+  font-family: "Acumin Pro", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.25; /* tighter paragraph line-height */
   font-size: clamp(0.85rem, 1.6vw, 0.95rem);
   word-break: normal; /* show full words, don't break in the middle */
@@ -165,6 +167,7 @@ main#content {
 
 .goal h3 {
   margin: 0 0 6px;
+  font-family: "Acumin Pro", "Helvetica Neue", Arial, sans-serif;
   font-weight: 700;
   text-transform: uppercase; /* visual spec: uppercase or bold */
   letter-spacing: 0.02em;
@@ -172,6 +175,7 @@ main#content {
 
 .goal p {
   margin: 0;
+  font-family: "Acumin Pro", "Helvetica Neue", Arial, sans-serif;
   font-size: 0.95rem;
 }
 
