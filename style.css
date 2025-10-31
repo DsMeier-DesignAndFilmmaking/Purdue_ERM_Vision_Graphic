@@ -131,11 +131,11 @@ main#content {
   margin: 0; /* no margins - spacing controlled by flex gap */
   line-height: 1.25; /* tighter paragraph line-height */
   font-size: clamp(0.85rem, 1.6vw, 0.95rem);
-  word-break: break-word;
-  overflow-wrap: anywhere;
-  hyphens: auto;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
+  word-break: normal; /* show full words, don't break in the middle */
+  overflow-wrap: break-word; /* only break very long words if absolutely necessary */
+  hyphens: none; /* disable hyphenation - show full words on line breaks */
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
 }
 
 /* Constrain text width inside the circle to keep clear of curvature */
