@@ -63,19 +63,19 @@
   <g class="text">
     <!-- Top (scaled positions, same font sizes) -->
     <text x="500" y="282" text-anchor="middle" class="goalTitle">Goal 1</text>
-    <text x="500" y="295" text-anchor="middle" class="goalBody">Placeholder text for goal 1.</text>
+    <text x="500" y="295" text-anchor="middle" class="goalBody">Ensure the seamless integration of strategic planning</text>
 
     <!-- Right -->
     <text x="718" y="506" text-anchor="end" class="goalTitle">Goal 2</text>
-    <text x="718" y="532" text-anchor="end" class="goalBody">Placeholder text for goal 2.</text>
+    <text x="718" y="532" text-anchor="end" class="goalBody">Recognize early warning risk indicators</text>
 
     <!-- Bottom -->
     <text x="500" y="719" text-anchor="middle" class="goalTitle">Goal 3</text>
-    <text x="500" y="732" text-anchor="middle" class="goalBody">Placeholder text for goal 3.</text>
+    <text x="500" y="732" text-anchor="middle" class="goalBody">Link decisions with stakeholder values</text>
 
     <!-- Left -->
     <text x="282" y="506" text-anchor="start" class="goalTitle">Goal 4</text>
-    <text x="282" y="532" text-anchor="start" class="goalBody">Placeholder text for goal 4.</text>
+    <text x="282" y="532" text-anchor="start" class="goalBody">Drive sustainable synergies</text>
   </g>
 </svg>
 
