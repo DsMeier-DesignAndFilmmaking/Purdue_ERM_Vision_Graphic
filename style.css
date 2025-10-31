@@ -174,15 +174,16 @@ main#content {
 /* Hover/interaction effects removed per request */
 
 /* Individual goal placements and accent borders matching quadrants */
+/* Moved outward by 15% from center to avoid overlapping vision circle */
 .goal1 {
   left: 50%;
-  top: 2.5%;
+  top: -12.5%; /* moved outward 15% from previous 2.5% */
   transform: translate(-50%, 0);
   border-top: 4px solid var(--goal-bg1);
 }
 
 .goal2 {
-  right: 2.5%;
+  right: -12.5%; /* moved outward 15% from previous 2.5% */
   top: 50%;
   transform: translate(0, -50%);
   border-right: 4px solid var(--goal-bg2);
@@ -190,13 +191,13 @@ main#content {
 
 .goal3 {
   left: 50%;
-  bottom: 2.5%;
+  bottom: -12.5%; /* moved outward 15% from previous 2.5% */
   transform: translate(-50%, 0);
   border-bottom: 4px solid var(--goal-bg3);
 }
 
 .goal4 {
-  left: 2.5%;
+  left: -12.5%; /* moved outward 15% from previous 2.5% */
   top: 50%;
   transform: translate(0, -50%);
   border-left: 4px solid var(--goal-bg4);
