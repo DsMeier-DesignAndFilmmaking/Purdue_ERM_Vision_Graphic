@@ -223,11 +223,7 @@ main#content {
   }
 
   .ring {
-    position: relative;
-    width: min(88vw, 520px);
-    justify-self: center;
-    height: auto;
-    aspect-ratio: 1 / 1;
+    display: none; /* hide outer banded color rings on mobile only */
   }
 
   .vision-center {
@@ -236,7 +232,7 @@ main#content {
     aspect-ratio: 1 / 1;
     left: auto; top: auto; transform: none;
     justify-self: center;
-    margin-top: -28%; /* visually overlap the ring */
+    /* margin-top removed since ring is hidden on mobile */
   }
 
   .goal {
