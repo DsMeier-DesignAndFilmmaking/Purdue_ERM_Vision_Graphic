@@ -109,23 +109,27 @@ main#content {
   background: #000000;
   color: var(--purdue-gold);
   border-radius: 50%;
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
   padding: 24px 32px; /* increase inner padding to keep text away from edge */
   box-shadow: 0 6px 18px rgba(0,0,0,0.12);
   overflow: hidden; /* ensure content cannot render outside circular clip */
+  gap: 2px; /* minimal gap between headline and paragraph */
 }
 
 .vision-center h2 {
-  margin: 0; /* minimal gap; managed optically by font metrics */
+  margin: 0; /* no margins to control spacing via gap */
   font-weight: 800;
   letter-spacing: 0.02em;
+  line-height: 1.1; /* tighter line-height to reduce visual space */
 }
 
 .vision-center p {
-  margin: 0; /* no extra spacing below headline */
-  line-height: 1.28; /* tighter paragraph line-height */
+  margin: 0; /* no margins - spacing controlled by flex gap */
+  line-height: 1.25; /* tighter paragraph line-height */
   font-size: clamp(0.85rem, 1.6vw, 0.95rem);
   word-break: break-word;
   overflow-wrap: anywhere;
