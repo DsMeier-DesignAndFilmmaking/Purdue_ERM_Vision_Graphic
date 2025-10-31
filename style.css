@@ -223,7 +223,11 @@ main#content {
   }
 
   .ring {
-    display: none; /* hide outer banded color rings on mobile only */
+    display: none !important; /* hide outer banded color rings on mobile only */
+  }
+  
+  .ring::after {
+    display: none !important; /* also hide the inner white circle knockout */
   }
 
   .vision-center {
