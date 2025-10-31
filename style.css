@@ -101,7 +101,7 @@ main#content {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  width: 64%; /* reduced diameter by 20% from previous 80% */
+  width: 80%; /* match ring's inner diameter (100% - 2*inset[10%]) to remove gap */
   aspect-ratio: 1 / 1;
   background: #000000;
   color: var(--purdue-gold);

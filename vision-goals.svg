@@ -49,9 +49,9 @@
       <circle cx="500" cy="500" r="300" fill="#ffffff"/>
     </g>
 
-    <!-- Central Vision circle (reduced radius by 20%) -->
+    <!-- Central Vision circle (matches ring inner radius to remove gap) -->
     <g class="softShadow">
-      <circle cx="500" cy="500" r="240" fill="#000000"/>
+      <circle cx="500" cy="500" r="300" fill="#000000"/>
     </g>
   </g>
   <g class="text" text-anchor="middle">
